@@ -1,0 +1,4 @@
+环境:
+jdk7+Tomcat8
+数据库连接信息在
+database.properties修改

@@ -20,5 +20,11 @@
 			<result name="success">/success.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
+		
+		<action name="userAction_*" class="com.huayi.action.CommonAction" method="{1}">
+			<result name="success">/adminjsps/admin/main.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		
 	</package>
 </struts>

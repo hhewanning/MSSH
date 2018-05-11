@@ -21,7 +21,7 @@
 			<result name="error">/error.jsp</result>
 		</action>
 		
-		<action name="userAction_*" class="com.huayi.action.CommonAction" method="{1}">
+		<action name="commonAction_*" class="com.huayi.action.CommonAction" method="{1}">
 			<result name="success">/adminjsps/admin/main.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
